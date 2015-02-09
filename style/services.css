@@ -1,0 +1,109 @@
+.content{
+	margin-bottom:50px;
+	}
+
+.content h2{
+	background:url(../images/dotted-line.png) bottom right repeat-x;
+	font-size:28px;
+	padding:40px 0;
+	text-align:center;
+}
+.content span{
+	color:#072a5e;
+	}
+.services{
+	margin: 30px 0 20px 0;
+	overflow:hidden;
+}
+	.services ul{
+		}
+	.services li{
+		}
+		
+		.services li:last-child{
+			margin-right:0;
+			}
+		
+		.services .disk-outer{
+			background:#fff;
+			border:1px solid #dedede;
+			border-radius:100%;
+			width:178px;
+			margin-bottom:18px;
+			height:178px;
+			}
+		.services .disk-inner{
+			background:#072a5e;
+			border-radius:100%;
+			height:140px;
+			width:140px;
+			margin:19px;
+			}
+		.services .disk-inner > .icon{
+			background-repeat:no-repeat;
+			background-position:center center;
+			height:140px;
+			width:140px;
+			}
+		.services .amazing{
+			background-image:url(../images/amazing.png);
+		}
+		
+		.services .hour{
+			background-image:url(../images/24.png);
+		}
+		
+		.services .web{
+			background-image:url(../images/setting.png);
+		}
+		
+		.services .mobile{
+			background-image:url(../images/mobile.png);
+		}
+		
+		.services h3{
+			font-size:24px;
+			text-align:center;
+			margin-bottom:10px;
+		}
+		
+		.services h5{
+			font-size:14px;
+			text-align:center;
+			
+		}
+
+.servicess{
+	float: left;
+}
+
+.servicess h5{
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+
+}
+.servicess p{
+	font-size:16px;
+	text-align: justify;
+	font-family:"Times New Roman", Times, serif;
+	margin-bottom: 10px;
+}
+
+.addvalue{
+	float: left;
+	margin-left: 80px;
+
+}
+
+.addvalue h4{
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+
+	}
+

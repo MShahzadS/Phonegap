@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bright Horse : Contact</title>
+  <link rel="stylesheet" href="style/base.css">
+  <link rel="stylesheet" href="style/index.css">
+  <link rel="stylesheet" href="style/services.css">
+
+
+  <script type="text/javascript"
+    src="http://maps.google.com/maps/api/js?sensor=false">
+</script>
+<script type="text/javascript">
+  function initialize() {
+    var position = new google.maps.LatLng(-26.068691, 28.089498);
+    var myOptions = {
+      zoom: 13,
+      center: position,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(
+        document.getElementById("map_canvas"),
+        myOptions);
+ 
+    var marker = new google.maps.Marker({
+        position: position,
+        map: map,
+        title:"This is the place."
+    });  
+ 
+    var contentString = 'Hello <strong>World</strong>!';
+    var infowindow = new google.maps.InfoWindow({
+        content: contentString
+    });
+ 
+    google.maps.event.addListener(marker, 'click', function() {
+      infowindow.open(map,marker);
+    });
+ 
+  }
+ 
+</script>
+
+</head>
+<body onload="initialize()">
+
+  <div class="wrapper">
+      
+    <div class="header container">
+    
+    <header>
+    
+    <div class="mono">
+    
+    <a href="index.html"><img src="imgs/mono.png" /></a>
+    
+    </div>
+        		<div>
+                	
+                    
+                    <nav class="main-menu">
+                    	<ul>
+                        	<li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="services.html">SERVICES</a></li>
+                            <li><a href="contact.html">CONTACT US</a></li>
+                        </ul>
+                    </nav>
+                    <img src="imgs/menu-under-pic.png" id="img1"/>
+                </div>
+        </header>
+    
+    
+    </div>
+
+    <div class="main-content">
+        
+        
+        
+        
+        
+      <div class="banner-wrapper">
+        <div class="banner container">
+          
+          
+        <div class="content" style="float:left;margin-left:150px;">
+        <form action="mailto:abc@abc.com" enctype="text/plain">
+            <table width="300" border="0" cellpadding="4" align="center" cellspacing="0" class="base" style="border-collapse:collapse;">
+              <tr align="center">
+                <td height="30" colspan="4" style="border-bottom-color:#300; border-bottom:dashed; border-bottom-width:thin"><strong>ENTER YOUR PROFILE</strong></td>
+              </tr>
+              <tr>
+                <td height="8" colspan="4" align="right">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="202" height="21" align="right" class="product" style="color:#F00">Contact Name:</td>
+                <td width="274" align="left"><input name="name" type="text" class="sidemenu-text"  style="width:170px;" /></td>
+              </tr>
+              <tr>
+                <td height="21" align="right" class="product" style="color:#F00">Phone:</td>
+                <td align="left"><input name="phone" type="text" class="sidemenu-text" id="phone3" style="width:170px;" /></td>
+              </tr>
+              <tr>
+                <td height="21" align="right" class="product" style="color:#F00">E-mail:</td>
+                <td align="left"><input name="email" type="text" class="sidemenu-text" id="email4" style="width:170px;" /></td>
+              </tr>
+              <tr align="center">
+                <td colspan="4"></td>
+              </tr>
+              <tr align="center">
+                <td height="30" colspan="4" style="border-bottom-color:#300; border-bottom:dashed; border-bottom-width:thin">&nbsp;</td>
+              </tr>
+              <tr>
+                <td colspan="4" align="right" valign="top">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="21" align="right" valign="top" class="product">Message:</td>
+                <td colspan="3"><textarea name="message" class="txt_qty" id="message" style="width:250px;height:70px;"></textarea></td>
+              </tr>
+              <tr>
+                <td colspan="4" align="center">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="23" colspan="4" align="center"><input type="submit" name="button2" id="button2" value="Submit"  style=" background-color:#072a5e;width:62; height:17; color:#FFF;"/></td>
+              </tr>
+              
+          </table>
+            
+            
+            </form>
+            
+
+
+            
+        </div>
+
+<div id="map_canvas" style="width:400px; height:400px; float:right;margin-right:50px;"></div>
+          
+          <div style="float:left;padding-left:90px; margin-bottom:10px;font-size:16px;font-family:"Times New Roman", Times, serif;"><span style="font-weight:bold;">Address :</span> Building 4, Ground floor, The Harrowdene Office Park, 125 Western Service Road, Woodmead, 2157, South Africa</div>
+          
+          <div class="footer">
+          
+          <footer class="footer">
+        	<div class="footer-content">
+            	<div>
+                	<img src="imgs/service-icon.png"/>
+                	<h5>OUR SERVICES</h5>
+                    <p>
+                    	Lorem Ipsum is simply dummy text of the printing and typesetting
+                     industry. Lorem Ipsum has been the industry's standard 
+                     dummy text ever since the 1500s, when an unknown 
+                     printer took a galley of type and scrambled it 
+                     to make a type specimen book
+                     
+                     <br/>
+                     <br/>
+                     
+                     <span style="font-weight:bold; color:#FFF;">Read More</span>
+                    </p>
+                    
+                 
+                    
+                </div>
+                <div>
+                	<img src="imgs/what-we-do.png"/>
+                	<h5>WHAT WE DO</h5>
+                    <p>
+                    	Lorem Ipsum is simply dummy text of the printing and typesetting
+                     industry. Lorem Ipsum has been the industry's standard 
+                     dummy text ever since the 1500s, when an unknown 
+                     printer took a galley of type and scrambled it 
+                     to make a type specimen book
+                     
+                     <br/>
+                     <br/>
+                     
+                     <span style="font-weight:bold; color:#FFF;">Read More</span>
+                    </p>
+                    
+                </div>
+                <div>
+                	<img src="imgs/news-update.png"/>
+                	<h5>NEWS UPDATE</h5>
+                    
+                    <h6>Heading Name</h6>
+                    <h6 style="float:right; margin-right:20px;">12/12/12</h6>
+                    <p>
+                    <br />
+                    	Lorem Ipsum is simply dummy text of the printing and typesetting
+                     industry. Lorem Ipsum has been the industry's standard 
+                     dummy text ever since the 1500s, when an unknown 
+                     printer
+                    </p>
+                    
+                </div>
+            </div>
+        </footer>
+        
+          
+          </div>
+          <div class="footer-lainj">
+          
+          <footer class="base-footer">
+        	<div class="bf-content">
+            	<div class="footer-nav">
+                	<a href="index.html">home</a>
+                    <a href="about.html">about us</a>
+                    <a href="services.html">services</a>
+                    <a href="contact.html">contact</a>
+                </div>
+                <div class="copy">
+                	Copyright @ 2014 - Bright Horse - All Right Reserved. Do not use without permission
+                </div>
+            </div>
+        </footer>
+          
+          
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

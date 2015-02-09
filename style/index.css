@@ -1,0 +1,141 @@
+.rotator{
+	position:relative;
+	margin: 0 auto;
+}
+.rotator img {
+	display: inherit;
+	margin: 0 auto;
+}
+.content h2{
+	background:url(../images/dotted-line.png) bottom right repeat-x;
+	font-size:28px;
+	padding:40px 0;
+	text-align:center;
+}
+.services{
+	margin: 40px 0 50px 0;
+	overflow:hidden;
+}
+	.services ul{
+		}
+	.services li{
+		float:left;
+		margin-right:75px;
+		}
+		
+		.services li:last-child{
+			margin-right:0;
+			}
+		
+		.services .disk-outer{
+			background:#fff;
+			border:1px solid #dedede;
+			border-radius:100%;
+			width:178px;
+			margin-bottom:18px;
+			height:178px;
+			}
+		.services .disk-inner{
+			background:#9fc63f;
+			border-radius:100%;
+			height:140px;
+			width:140px;
+			margin:19px;
+			}
+		.services .disk-inner > .icon{
+			background-repeat:no-repeat;
+			background-position:center center;
+			height:140px;
+			width:140px;
+			}
+		.services .amazing{
+			background-image:url(../images/amazing.png);
+		}
+		
+		.services .hour{
+			background-image:url(../images/24.png);
+		}
+		
+		.services .web{
+			background-image:url(../images/setting.png);
+		}
+		
+		.services .mobile{
+			background-image:url(../images/mobile.png);
+		}
+		
+		.services h3{
+			font-size:24px;
+			text-align:center;
+			margin-bottom:10px;
+		}
+		
+		.services h5{
+			font-size:14px;
+			text-align:center;
+			
+		}
+
+.sub-header{
+	background:url(../images/dotted-line.png) center repeat-x;
+	clear:both;
+	height:20px;
+	margin-bottom:35px;
+}
+	.sub-header h4{
+		background:#f5f5f5;
+		font-size:20px;
+		padding-top:4px;
+		margin-left:35px;
+		height:20px;
+		width:275px;
+	}
+
+.portfolio-item{
+	border: 1px solid #ebebeb;
+	float:left;
+	width:465px;
+	margin-bottom:25px;
+	margin-right:26px;
+}
+	.portfolio-item:nth-child(2n + 1){
+	margin-right:0px;
+	}
+	
+	.portfolio-item img{
+		float:left;
+		height:148px;
+		width:227px;
+		margin-right:20px;
+	}
+	.portfolio-item h5{
+		font-size:12px;
+		margin:15px 0 10px 0;
+	}
+	.portfolio-item a{
+		background:#9fc63f;
+		color:#FFF;
+		text-decoration:none;
+		padding:3px 10px;
+	}
+	.portfolio-item p{
+		margin-top:15px;
+	}
+
+.advertiser{
+	clear:both;
+}
+		.advertiser li {
+			float:left;
+			height:131px;
+			width:160px;
+		}
+		
+		.advertiser img {
+			display:block;
+			height:131px;
+			width:160px;
+		}
+			
+		
+		
